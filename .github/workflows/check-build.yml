@@ -1,6 +1,9 @@
 name: check-build
 
 on:
+  push:
+    branches:
+      - '**'
   pull_request:
     branches:
       - master
